@@ -1,0 +1,33 @@
+.modal{
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+}
+.Popup-Contact .modal-content{
+    border-radius: 0px!important;
+}
+.modal-dialog{
+    width: 350px!important;
+}
+.submit-btn{
+    width: 100%;
+}
+.Popup-Contact .modal-header{
+    border-bottom: 1px solid rgb(12, 223, 57)!important;
+
+}
+.contact-popup-headding{
+    font-size: 14px;
+    text-align: center;
+    margin-top:5%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.Popup-Contact .submit-btn{
+    background-color:rgb(12, 223, 57)!important;
+    border: none!important;
+}
+@media screen and (max-width:776px){
+    .modal-dialog {
+        width: auto!important;
+        margin: 1.5rem;
+    }
+}
